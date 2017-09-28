@@ -3,13 +3,20 @@ I have been programming a dynamic auticoach in Perl before I went HASS. Memory c
 
 Various modules which I programmed back then will be used in the front-end interface of this auticoach.
 This auticoach is based upon open-source domotica called Home Assistant, it however does not have multiple user support and modules which assist users with autism/adhd/MS/Alzheimer etc..
-The front-end includes a paperless document manager, pay your bills module, track your times with camera, direct aid assist, monitoring for aid-workers, security towards the backend and multi-user overview etc..
+The front-end includes a paperless document manager, pay your bills module, track your times with camera, direct aid assist, monitoring for aid-workers, where is your wallet, security towards the backend and multi-user overview etc..
 
 I will not publicize the front-end yet for various reasons.
 
 Gunther Voet, Freaking Wildchild.
 
 This current version supports (HASS Backend):
+
+ <b>Scripted</b>
+ - Status light for mental state and alarm states
+ - warning before turning lights off in zone
+ - overrides for PIR units
+ - warnings for scheduled events through light (and sound)
+ - comfort when using TV/PC, for somebody else in the house, ...
  
  <b>Dashboard</b>
  The dashboard offers a general overview for the user.
@@ -27,6 +34,7 @@ This current version supports (HASS Backend):
  - Amount of bicycles available in my area
  
  - Basic Interface (removing all windows which are not needed for guest use)
+ 
  
  <b>Domotica</b>
  Because the auticoach uses light (and later sound) to warn the user, it can also be used for comfort.
